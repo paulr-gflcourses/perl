@@ -1,0 +1,8 @@
+
+<h1>Test parameters</h1>
+<h2>A list of template values:</h2>
+<p>{{a}} {{b}} {{c}} </p>
+
+
+</body>
+</html>
