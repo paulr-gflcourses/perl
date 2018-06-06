@@ -1,0 +1,12 @@
+ describe articles;
++------------+----------------------+------+-----+---------+----------------+
+| Field      | Type                 | Null | Key | Default | Extra          |
++------------+----------------------+------+-----+---------+----------------+
+| id         | smallint(5) unsigned | NO   | PRI | NULL    | auto_increment |
+| title      | varchar(50)          | NO   |     | NULL    |                |
+| message    | text                 | NO   |     | NULL    |                |
+| is_private | tinyint(1)           | NO   |     | 0       |                |
+| id_user    | int(10)              | NO   |     | NULL    |                |
++------------+----------------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
