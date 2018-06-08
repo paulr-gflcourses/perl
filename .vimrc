@@ -12,6 +12,17 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'scrooloose/syntastic'
 
+Plug 'scrooloose/nerdcommenter'
+Plug 'jlanzarotta/bufexplorer'
+
+
+    Plug 'MarcWeber/vim-addon-mw-utils'
+    Plug 'tomtom/tlib_vim'
+    Plug 'garbas/vim-snipmate'
+
+        " Optional:
+    Plug 'honza/vim-snippets'
+
 " GIT
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
@@ -40,6 +51,20 @@ let g:solarized_termcolors=256
 
 map <C-n> :NERDTreeToggle<CR>
 map <Leader> <Plug>(easymotion-prefix)
+
+"---bufexplorer
+nmap <C-F5> <Esc>:BufExplorer<cr>
+vmap <C-F5> <esc>:BufExplorer<cr>
+imap <C-F5> <esc>:BufExplorer<cr>
+" F6 - предыдущий буфер
+ nmap <C-F6> :bp<cr>
+ vmap <C-F6> <esc>:bp<cr>i
+ imap <C-F6> <esc>:bp<cr>i
+ " F7 - следующий буфер
+ nmap <C-F7> :bn<cr>
+ vmap <C-F7> <esc>:bn<cr>i
+ imap <C-F7> <esc>:bn<cr>i
+"---
 
 
 set number
