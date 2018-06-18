@@ -1,0 +1,54 @@
+p{
+	background-color: blue;
+	
+	
+	color: #00ff00;
+	border: 10px solid rgb(33, 190, 28);
+	border-width: 10pz;
+	border-style: solid;
+	border-color: rgb(255, 190, 28);
+	
+	border-bottom: 10px dotted rgb(255, 190, 28);
+	/*  Комментарий 
+		
+		Colors
+		
+		
+		#ffffff - white
+		#ff0000 - red
+		#000000 - black
+		
+		rgb(0, 0, 0); - black
+		rgb(255, 255, 255); - white
+		
+		rgba(255, 255, 255, 0.75); - white
+	
+	*/
+	
+}
+
+ol#unical-name.not-unical-name{
+	
+	background: pink;
+}
+
+ol#unical-name.not-unical-name li{
+	
+	background: pink;
+}
+ul.test > li{
+	background: pink;
+}
+#unical-name{
+	
+	background: yellow !important;
+}
+
+ol{
+	backgroung: red;
+}
+
+.not-unical-name{
+	
+	background: green;
+}
