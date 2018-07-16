@@ -2,8 +2,8 @@ TRUNCATE TABLE users;
 TRUNCATE TABLE articles;
 
 INSERT INTO users(id,login,password) VALUES
-(0,"test1","pass1"),
-(0,"test2","pass2");
+(0,"test1","user1"),
+(0,"test2","user2");
 
 INSERT INTO articles(id,title,message,is_private,id_user) VALUES
 (0, "art1", "Article 1:The new interesting article1!!!",0,1),
