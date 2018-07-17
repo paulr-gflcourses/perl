@@ -6,6 +6,7 @@ use File::Basename qw(dirname);
 use lib dirname(__FILE__) . '/libs';
 use Data::Dumper;
 use Tools::FileSystem;
+use Tools::Session;
 
 $|=1;
 ReadParse();
@@ -21,3 +22,5 @@ my %data = ('a'=>'val1',
 
 $html =~ s/{{(\w+)}}/$data{$1}/gie;
 print $html;
+
+#my $sess=Tools::Session->new();

@@ -1,6 +1,7 @@
 package Tools::Session;
 
 use strict;
+
 use CGI::Session;
 use CGI::Cookie;
 use Tools::Accessors;
